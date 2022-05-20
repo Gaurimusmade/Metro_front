@@ -1,0 +1,86 @@
+body{
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.grid_container{
+    width: 650px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto ;
+    /* border: 2px solid red; */
+    padding: 8px;
+}
+.img1{
+height: 428px;
+width: 300px;
+}
+.img2{
+    height: 200px;
+    width: 300px;
+ }
+.img3{
+    height: 100px;
+    width: 110px;
+    float:right;
+}
+.img4{
+    height: 100px;
+    width: 110px;
+    float:right;
+}
+.item1 , .item2{
+    width: 320px;
+     background-color: white;
+     margin: 0px;
+     padding: 0px;
+     /* border: 1px solid #e9ecef; */
+} 
+.text{
+   line-height: 25px;
+   padding: 0%;
+   margin: 0%;
+}
+.item2{
+    border-left-color: white;
+}
+.item1{
+    border-right-color: white;
+}
+.red_text{
+    text-transform: uppercase;
+    color: red;
+}
+p{
+    font-weight: 500;
+}
+.logo{
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+.blue_text{
+    color: #42a5f5;
+}
+.info{
+    font-size: 15px;
+    padding-top: 5px;
+    margin: 0%;
+}
+h3{
+    color: gray;
+}
+.icon{
+    transform: translateY(10px);
+}
+
+@media(max-width:320px)
+{
+    .grid_container{
+        grid-template-columns: auto;
+        margin: auto;
+    }  
+    /* body{
+        overflow: scroll;
+    } */
+}
